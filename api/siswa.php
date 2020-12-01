@@ -18,4 +18,8 @@ $data;
 while ($row = $result->fetch_assoc()) {
   $data[] = $row;
 }
+if(empty($data))
+{
+  $data[] = ['id'=>'0','nama'=>'Tidak Ada Data Siswa','nis'=>'0'];
+}
 echo json_encode($data);

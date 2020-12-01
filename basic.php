@@ -1,6 +1,6 @@
+<?php include 'config.php';?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +10,7 @@
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
   <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
   <script src="config.js"></script>
-  <?php
-  $root  = (isset($_SERVER['HTTPS']) ? "https://" : "http://").$_SERVER['HTTP_HOST'];
-  $root .= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
-  ?>
-  <script>
+  <script type="text/javascript">
     var _URL = "<?php echo $root;?>";
   </script>
 </head>

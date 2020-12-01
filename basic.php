@@ -10,7 +10,7 @@
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
   <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
   <script src="config.js"></script>
-  <script type="text/javascript">
+  <script>
     var _URL = "<?php echo $root;?>";
   </script>
 </head>
